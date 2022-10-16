@@ -7,8 +7,7 @@ function closeNav() {
     document.getElementById("mySidenav").style.width = "0";
     document.getElementById("main").style.marginLeft = "0";
 }
-$(function() {
-    $("#dropdown a").click(function() {
-        $("#AdvancedSearch .selection").text('Advanced:' + $(this).text());
-    });
-});
+
+function addData() {
+    alert("Berhasil Menambahkan Data");
+}
