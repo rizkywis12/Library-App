@@ -14,3 +14,63 @@
     position: relative !important;
     bottom: 430px !important;
 }
+
+#icon {
+    width: 57px !important;
+    height: 52px !important;
+}
+
+.btn-back {
+    position: relative;
+    bottom: 450px;
+}
+
+.menu {
+    left: 90%;
+}
+
+.borrow {
+    width: 170px;
+    position: relative;
+    right: 30%;
+    top: 70%;
+}
+
+.content {
+    padding-left: 10% !important;
+}
+
+.cover {
+    position: relative;
+    /* top: -169px; */
+    height: 200px;
+    bottom: 150px;
+    left: 18%;
+}
+
+@media (max-width: 760px) {
+    .borrow {
+        width: 200px;
+        position: absolute;
+        /* left: 20px; */
+        right: 53%;
+    }
+    .cover {
+        display: none;
+    }
+}
+
+@media (max-width: 1024px) {
+    .borrow {
+        width: 200px;
+        position: absolute;
+        /* left: 20px; */
+    }
+    .cover {
+        display: none;
+    }
+}
+
+.modal-dialog {
+    max-width: 703px !important;
+}
