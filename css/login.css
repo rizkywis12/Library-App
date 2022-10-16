@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Secular+One&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.login-image {
+    width: 100vw;
+    height: 100vh;
+}
+
+.login-image .left-side {
+    width: 70%;
+    background-image: url(../img/mollie-sivaram-_1gBVgy8gIU-unsplash.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.left-side h1 {
+    padding: 50px 0 0 30px;
+    color: white;
+}
+
+.logo img {
+    width: 50px;
+    top: 0;
+    right: 0;
+    position: absolute;
+    margin-right: 30px;
+    margin-top: 12px;
+}
+
+.logo footer {
+    position: absolute;
+    bottom: 0;
+}
+
+.form {
+    width: 80%;
+}
+
+a:hover {
+    cursor: pointer;
+}
+
+
+/* flex fill -> flex: 1; */
+
+@media (max-width: 760px) {
+    .left-side {
+        display: none;
+    }
+    .right-side {
+        background-image: url(../img/mollie-sivaram-_1gBVgy8gIU-unsplash.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-left: 0px !important;
+        padding-left: 10%;
+    }
+    * {
+        color: white !important;
+    }
+}
