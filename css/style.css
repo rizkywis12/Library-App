@@ -150,25 +150,6 @@ svg {
     transition: margin-left 0.5s;
 }
 
-@media screen and (max-width: 700px) {
-    .sidenav {
-        padding-top: 15px;
-    }
-    .sidenav a {
-        font-size: 18px;
-    }
-}
-
-@media (max-width: 1190px) {
-    .gallery-cell {
-        width: 600px;
-        height: 300px;
-        margin-right: 25%;
-        margin-left: 25%;
-        counter-increment: gallery-cell;
-    }
-}
-
 .gallery {
     margin-top: 10px;
 }
@@ -193,4 +174,26 @@ svg {
     top: 20% !important;
     width: 100% !important;
     height: 60% !important;
+}
+
+
+/* respnsive */
+
+@media screen and (max-width: 700px) {
+    .sidenav {
+        padding-top: 15px;
+    }
+    .sidenav a {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 1190px) {
+    .gallery-cell {
+        width: 600px;
+        height: 300px;
+        margin-right: 25%;
+        margin-left: 25%;
+        counter-increment: gallery-cell;
+    }
 }
