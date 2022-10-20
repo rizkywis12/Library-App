@@ -11,6 +11,7 @@
 # What Technology i Used?
 - HTML CSS
 - Bootstrap 5
+- BoxIcon for icon
 - Flickity package for Carousel
 - Javascript as Programming language
 - DOM Implementation
